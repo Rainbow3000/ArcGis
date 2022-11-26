@@ -1,0 +1,33 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.covid19-webmap,.covid-19-info{
+    flex: 1;
+}
+
+.covid19-webmap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.covid-19-info h1 {
+    color: red;
+}
+
